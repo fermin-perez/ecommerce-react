@@ -1,0 +1,123 @@
+.item {
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+}
+
+.item__title-container {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 15%;
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.item__title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.item__image-container {
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  height: 55%;
+  justify-content: center;
+  width: 100%;
+}
+
+.item__image-container img {
+  height: 80%;
+  object-fit: contain;
+  width: 85%;
+}
+
+.item__price {
+  align-items: center;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: bold;
+  height: 10%;
+  justify-content: center;
+  width: 100%;
+}
+
+.item__add-container {
+  align-items: center;
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  width: 100%;
+}
+
+.item__add {
+  border: 3px solid black;
+  border-radius: 100%;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+
+.item__add-enabled {
+  background-color: red;
+}
+
+.item__add-enabled:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.item__add-disabled {
+  background-color: rgb(229, 127, 127);
+  cursor: not-allowed;
+}
+
+.item__details-button-container {
+  align-items: flex-end;
+  display: flex;
+  height: 10%;
+  justify-content: center;
+  width: 100%;
+}
+
+.item__details-button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.item__details-button:hover {
+  transform: scale(1.05);
+}
+
+.item__details-button a {
+  background-color: #6184ff;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: none;
+  width: 60%;
+}
+
+.item {
+  min-width: 250px;
+}

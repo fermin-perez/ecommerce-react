@@ -1,0 +1,88 @@
+.item-count {
+  align-items: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+  width: 70%;
+}
+
+.item-count__controlls {
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.item-count__controlls button {
+  background-color: white;
+  border: none;
+  border-radius: 100%;
+  color: #6184ff;
+  font-size: 1.7rem;
+  height: 30px;
+  width: 30px;
+}
+
+.item-count__controlls span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.item-count__stock {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.item-count__stock span {
+  font-size: 1.2rem;
+}
+
+.item-count__add {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.item-count__add button {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+.item-count__add-enabled {
+  background-color: #6184ff;
+  cursor: pointer;
+}
+
+.item-count__add-enabled:hover {
+  transform: scale(1.05);
+}
+
+.item-count__add-disabled {
+  background-color: #b1c1fa;
+  cursor: not-allowed;
+}
+
+@media only screen and (max-width: 767px) {
+  .item-count {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .item-count {
+    width: 90%;
+  }
+}
